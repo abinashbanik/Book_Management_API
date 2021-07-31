@@ -1,0 +1,35 @@
+Requirements for our project 
+
+We are a book managemnet Company 
+
+::-> Books
+Requirements
+::=> ISBN, Title, Publication date, language, num pages, author[], category[]
+
+::-> Authors
+::=> Id, name, books[]
+
+::-> Publications
+::=> Id, name, books[]
+
+>> API s we need
+
+> Books
+we need an API 
+-to get all books /
+- to get specific books /
+- to get list of books based on category  /
+- to get list of books based on languages  /
+
+> Authors
+We need an API  
+- to get all Authors    /
+- to get specific Authors   {task}
+- to get list of authors based on books     /
+
+
+> Publications
+We need an API to get
+- Publications
+- specific Publications
+- list of publication based on book
