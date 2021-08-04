@@ -12,24 +12,65 @@ Requirements
 ::-> Publications
 ::=> Id, name, books[]
 
->> API s we need
+>> API's we need
 
-> Books
+                        >>>>>>>>>>>>>>>     Books   <<<<<<<<<<<<<<
+
+****GET****
 we need an API 
 -to get all books /
 - to get specific books /
 - to get list of books based on category  /
 - to get list of books based on languages  /
 
-> Authors
+
+****POST****
+> Add new book  /
+
+****PUT****
+> Update book Title     /
+> update/add new author for a book  [faulty book updater] *Test*
+
+****DELETE****
+> delete a book     /
+> delete an author from the book    /
+
+
+                        >>>>>>>>>>>>>>>>    Authors    <<<<<<<<<<<<<
+
+****GET****
 We need an API  
 - to get all Authors    /
 - to get specific Authors   {task}
 - to get list of authors based on books     /
 
+****POST****
+> Add new author    /
 
-> Publications
+****PUT****
+> Update author name  using its Id  [TASK]
+
+****DELETE****
+> Delete an author      [TASK]
+
+                        >>>>>>>>>>>>>>  Publicatios <<<<<<<<<<<<<<
+
+****GET****
 We need an API to get
-- Publications
+- Publications  /
 - specific Publications
-- list of publication based on book
+- list of publication based on book     /
+
+****POST****
+> Add new Publication   /
+
+****PUT****
+> Update the Publcation name  using its Id  [TASK]
+> update/add books to a publication     /
+
+****Delete****
+> Delete the Publication    [TASK]
+> Delete a book from a publication      /
+
+
+
