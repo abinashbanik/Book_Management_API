@@ -1,4 +1,4 @@
-const mongoose = reqire("mongoose");
+const mongoose = require("mongoose");
 
 // Creating a book schema
 const BookSchema = mongoose.Schema({
@@ -14,6 +14,6 @@ const BookSchema = mongoose.Schema({
 
 // Create Book model
 
-const BookModel = mongoose.model("authors",BookSchema);
+const BookModel = mongoose.model("books",BookSchema);
 
 module.exports = BookModel;

@@ -18,14 +18,14 @@ Requirements
 
 ****GET****
 we need an API 
--to get all books /
-- to get specific books /
-- to get list of books based on category  /
+-to get all books / D
+- to get specific books /   D
+- to get list of books based on category  /     D
 - to get list of books based on languages  /
 
 
 ****POST****
-> Add new book  /
+> Add new book  /   D
 
 ****PUT****
 > Update book Title     /
@@ -40,12 +40,12 @@ we need an API
 
 ****GET****
 We need an API  
-- to get all Authors    /
+- to get all Authors    /   D
 - to get specific Authors   {task}
 - to get list of authors based on books     /
 
 ****POST****
-> Add new author    /
+> Add new author    /   D
 
 ****PUT****
 > Update author name  using its Id  [TASK]
@@ -57,7 +57,7 @@ We need an API
 
 ****GET****
 We need an API to get
-- Publications  /
+- Publications  /   D
 - specific Publications
 - list of publication based on book     /
 
