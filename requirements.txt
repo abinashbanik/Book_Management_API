@@ -28,7 +28,7 @@ we need an API
 > Add new book  /   D
 
 ****PUT****
-> Update book Title     /
+> Update book Title     /   D
 > update/add new author for a book  [faulty book updater] *Test*
 
 ****DELETE****

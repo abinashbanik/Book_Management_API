@@ -232,15 +232,23 @@ Access        Public
 Parameter     none
 Methods       PUT
 */
-booky.put("/book/update/title/:isbn", (req, res) => {
-    database.books.forEach((book) => {
-        if (book.ISBN === req.params.isbn) {
-            book.title = req.body.newBookTitle;
-            return;
-        }
-    });
+booky.put("/book/update/title/:isbn", async (req, res) => {
 
-    return res.json({ books: database.books });
+    const updatedBook = await BookModel.findOneAndUpdate(
+        {ISBN: req.params.isbn,},
+        {title: req.body.bookTitle,},
+        {new: true,}
+        );
+
+    
+    // database.books.forEach((book) => {
+    //     if (book.ISBN === req.params.isbn) {
+    //         book.title = req.body.newBookTitle;
+    //         return;
+    //     }
+    // });
+
+    return res.json({ books: updatedBook/*database.books */});
 });
 
 /*
